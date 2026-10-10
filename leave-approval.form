@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "text": "# Leave Approval",
+      "type": "text",
+      "layout": {
+        "row": "Row_title",
+        "columns": null
+      },
+      "id": "Field_title"
+    },
+    {
+      "label": "Employee Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_employee",
+        "columns": null
+      },
+      "id": "Field_employeeName",
+      "key": "employeeName",
+      "readonly": true
+    },
+    {
+      "label": "Days",
+      "type": "number",
+      "layout": {
+        "row": "Row_days",
+        "columns": null
+      },
+      "id": "Field_days",
+      "key": "days",
+      "readonly": true
+    },
+    {
+      "label": "Approved",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_approved",
+        "columns": null
+      },
+      "id": "Field_approved",
+      "key": "approved"
+    }
+  ],
+  "type": "default",
+  "id": "leave-approval-form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.51.1"
+  },
+  "schemaVersion": 19
+}
